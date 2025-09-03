@@ -1,0 +1,10 @@
+title: Jumping Rivers Presentation Template
+author: Jumping Rivers
+version: 0.0.1
+contributes:
+  formats:
+    revealjs:
+      logo: logo.png
+      theme: jrSlides.scss
+      title-slide-attributes:
+        data-background-color: "#490f3a"

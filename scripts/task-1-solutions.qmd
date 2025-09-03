@@ -1,0 +1,16 @@
+---
+title: "A very cool title"
+author: "Me"
+format: revealjs
+---
+
+# Introduction
+
+## About Lemurs
+
+
+
+## Duke Lemur Center
+
+
+
