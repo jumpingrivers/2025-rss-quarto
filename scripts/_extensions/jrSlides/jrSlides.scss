@@ -1,0 +1,69 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap);
+
+// font family
+$font-family-sans-serif: 'Outfit', sans-serif !default;
+$presentation-heading-font: 'Outfit', sans-serif  !default;
+
+// font size
+$presentation-h1-font-size: 2.2em;
+$presentation-h2-font-size: 1.5em;
+$presentation-h3-font-size: 1.2em;
+$presentation-h4-font-size: 1.0em;
+$presentation-font-size-root: 45px;
+$presentation-line-height: 1.5em;
+
+// font colour
+$presentation-heading-color: #490f3a !default;
+
+// code
+$code-color: #0c293d !default;
+$code-block-font-size: 0.8em;
+$code-block-border-color: #490f3a;
+$code-block-bg: #fcfbfa;
+
+// bg colours
+$body-color: #490f3a;
+$link-color: #ea687e;
+$body-bg: #f1eade;
+
+/*-- scss:rules --*/
+
+.aside-footnotes {
+  color: $body-color;
+}
+
+section.has-dark-background a, section.has-dark-background a:hover {
+  color: $body-bg;
+}
+
+.reveal .title {
+  color: #ea687e;
+}
+
+.reveal .quarto-title-author {
+  color: #ea687e;
+  font-size: $presentation-h4-font-size;
+  font-family: $presentation-heading-font;
+}
+
+.reveal .slide-logo {
+  right: 12px;
+  padding-bottom: 20px !important;
+  max-height: 100px !important;
+}
+
+.reveal .slide-menu-button {
+    left: 100px;
+    top: 30px;
+    padding-left: 20px;
+    color: #490f3a;
+  }
+
+.reveal .progress {
+  background: #fcfbfa;
+  color: #490f3a;
+  height: 2%;
+}
